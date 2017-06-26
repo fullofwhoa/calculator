@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", arial, sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-family: "Merriweather", "Trebuchet MS", serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.headerwap {
+  width: 1000px;
+  float: left;
+  margin: 0 auto;
+}
+
+.header {
+  height: 75px;
+  background: #7ec13f;
+  border-radius: 10px;
+  border: 1px solid #333333;
+  margin: 5px;
+}
+
+.calculatemain {
+  width: 700px;
+  float: left;
+  margin: 0 auto;
+  /*overflow: auto;*/
+}
+
+.content {
+    background: #F7F7F7;
+    border: 1px solid #cceba4;
+    margin: 5px;
+    overflow: auto;
+}
+
+.option1a {
+  display: block;
+  margin: 10px 20px 10px 44px;
+  float: left;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #F9F9F9;
+}
+
+.option1b {
+  display: block;
+  margin: 10px 44px 10px 20px;
+  float: left;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #F9F9F9;
+}
+
+
+
+.check1a {
+  display: inline;
+  align-content: right;
+  opacity: 0.1;
+}
+
+.check1b {
+  display: inline;
+  align-content: right;
+  opacity: 0.1;
+}
+
+.check-select {
+  opacity: 1;
+}
+
+.tallywrap {
+  width: 280px;
+  float: left;
+  margin: 0 auto;
+}
+
+.tally {
+  border: 2px solid #7ec13f;
+  margin: 5px;
+}
+
+.tally p {
+  margin-left: 15px;
+}
+
+.tallycomplete {
+
+}
+
+.msub {
+  float:right;
+  margin-right: 15px;
+}
+
+.display-result {
+  display: inline;
+}
+
+.setup {
+  float:right;
+  margin-right: 15px;
+}
+
+.firstyear {
+  float:right;
+  margin-right: 15px;
+}
+
+.secondyear {
+  float:right;
+  margin-right: 15px;
+}
+
+em {
+  color: #7ec13f;
+  font-weight: bold;
+}
+
+.option2a {
+  display: block;
+  margin: 10px 20px 10px 44px;
+  float: left;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #F9F9F9;
+}
+
+.option2b {
+  display: block;
+  margin: 10px 44px 10px 20px;
+  float: left;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #F9F9F9;
+}
+
+.check2a {
+  display: inline;
+  align-content: right;
+  opacity: 0.1;
+}
+
+.check2b {
+  display: inline;
+  align-content: right;
+  opacity: 0.1;
+}
+
+.option-hover {
+  border-radius: 5px;
+  border-color: #7ec13f;
+  background-color: #ffffff;
+}
+
+.select {
+  border-radius: 5px;
+  border-color: #7ec13f;
+  box-shadow:0 0 10px #7ec13f;
+  background-color: #ffffff;
+
+}
+
+.de-select {
+  border-color: #f4f4f4;
+  background-color: #f2f2f2;
+  box-shadow: none;
+}
